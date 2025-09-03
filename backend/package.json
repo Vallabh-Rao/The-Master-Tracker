@@ -1,0 +1,34 @@
+{
+  "name": "the-master-tracker-backend",
+  "version": "1.0.0",
+  "description": "Backend for The Master Tracker - An AI-powered cybersecurity companion",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "cybersecurity",
+    "AI",
+    "security-karma",
+    "express",
+    "sqlite",
+    "backend"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "openai": "^5.16.0",
+    "socket.io": "^4.8.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
