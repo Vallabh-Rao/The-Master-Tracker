@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "security-karma-frontend",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -7,6 +7,7 @@
     "@testing-library/react": "^14.2.1",
     "@testing-library/user-event": "^14.5.1",
     "axios": "^1.7.7",
+    "lucide-react": "^0.263.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.26.2",
@@ -36,5 +37,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
   }
 }
